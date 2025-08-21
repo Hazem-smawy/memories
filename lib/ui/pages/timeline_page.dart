@@ -16,7 +16,7 @@ class _TimelinePageState extends State<TimelinePage>
     with SingleTickerProviderStateMixin {
   late AnimationController _fade;
 
-  static const double _gutter = 40; // left gutter for the timeline
+  static const double _gutter = 40;
   static const double _circleSize = 16;
 
   @override
